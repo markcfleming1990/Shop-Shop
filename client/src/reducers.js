@@ -4,7 +4,7 @@ import {
   UPDATE_PRODUCTS,
   UPDATE_CATEGORIES,
   UPDATE_CURRENT_CATEGORY
-} from "./actions";
+} from "./utils/actions";
 
 export const reducer = (state, action) => {
   switch (action.type) {
